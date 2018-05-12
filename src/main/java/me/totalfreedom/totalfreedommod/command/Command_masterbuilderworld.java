@@ -10,7 +10,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level = Rank.MASTER_BUILDER, source = SourceType.BOTH)
-@CommandParameters(description = "Go to the AdminWorld.",
+@CommandParameters(description = "Go to the MasterBuilder World.",
         usage = "/<command> [guest < list | purge | add <player> | remove <player> > | time <morning | noon | evening | night> | weather <off | on | storm>]",
         aliases = "mbworld,mbw")
 public class Command_masterbuilderworld extends FreedomCommand
